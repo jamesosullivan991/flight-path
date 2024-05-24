@@ -1,8 +1,8 @@
 # Flight Path Calculator
-The endpoint /calculate returns the path from source to destination in the correct order.
-Expects a JSON body with a 'flights' key containing an array of flight pairs.
-Example request body: { "flights": [["IND", "EWR"], ["SFO", "ATL"], ["GSO", "IND"], ["ATL", "GSO"]] }
-Responds with a JSON object containing the sorted flight path.
+The endpoint /calculate returns the path from source to destination in the correct order.  
+Expects a JSON body with a 'flights' key containing an array of flight pairs.  
+Example request body: { "flights": [["IND", "EWR"], ["SFO", "ATL"], ["GSO", "IND"], ["ATL", "GSO"]] }  
+Responds with a JSON object containing the sorted flight path.  
 
 Any questions, contact:
 
